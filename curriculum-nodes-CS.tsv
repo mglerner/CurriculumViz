@@ -1,0 +1,33 @@
+label	dept	num	satisfies	prereqs	coreqs	ay
+CS 370	CS	370	[]	['CS 256']	[]	False
+CS 420	CS	420	[]	['CS 320']	[]	False
+CS 380	CS	380	[]	['CS 310']	[]	False
+CS 486	CS	486	[]	[]	[]	False
+CS 130	CS	130	['A-AR']	[]	[]	False
+CS 310	CS	310	[]	['MATH 180', 'MATH 190', 'CS 256']	[]	False
+CS 128	CS	128	['A-AR', 'A-QR']	[]	[]	False
+CS 281	CS	281	[]	[]	[]	False
+CS 350	CS	350	[]	['PHYS 230', 'PHYS 235']	[]	False
+MATH 180	MATH	180	BOGUS	BOGUS	BOGUS	BOGUS
+CS 485	CS	485	[]	[]	[]	False
+CS 330	CS	330	[]	['CS 256']	[]	False
+CS 360	CS	360	[]	['CS 310']	[]	False
+CS 290	CS	290	[]	[]	[]	False
+MATH 195	MATH	195	BOGUS	BOGUS	BOGUS	BOGUS
+CS 482	CS	482	[]	[]	[]	False
+CS 430	CS	430	[]	['CS 256']	[]	False
+CS 410	CS	410	[]	['CS 320']	[]	False
+CS 383	CS	383	BOGUS	BOGUS	BOGUS	BOGUS
+CS 440	CS	440	[]	['CS 256']	[]	False
+MATH 190	MATH	190	BOGUS	BOGUS	BOGUS	BOGUS
+CS 483	CS	483	[]	[]	[]	False
+PHYS 235	PHYS	235	BOGUS	BOGUS	BOGUS	BOGUS
+CS 488	CS	488	[]	[]	[]	False
+PHYS 230	PHYS	230	BOGUS	BOGUS	BOGUS	BOGUS
+CS 195	CS	195	[]	[]	[]	False
+CS 320	CS	320	[]	['CS 310']	[]	False
+CS 345	CS	345	[]	['CS 310']	[]	False
+CS 484	CS	484	[]	[]	[]	False
+CS 256	CS	256	[]	['CS 128']	[]	False
+CS 481	CS	481	[]	[]	[]	False
+CS 340	CS	340	[]	['CS 310']	[]	False

@@ -1,0 +1,22 @@
+label	dept	num	satisfies	prereqs	coreqs	ay
+MATH 301	MATH	301	['A-AR']	[]	[]	False
+MATH 195	MATH	195	[]	[]	[]	False
+MATH 420	MATH	420	['A-AR']	['MATH 190', 'MATH 288', 'MATH 310']	[]	False
+MATH 320	MATH	320	['A-AR', 'A-QR']	['MATH 280']	[]	False
+MATH 310	MATH	310	['A-AR']	['MATH 280']	[]	False
+MATH 425	MATH	425	['A-AR']	['MATH 420']	[]	False
+MATH 430	MATH	430	['A-AR']	['MATH 280', 'MATH 288']	[]	False
+MATH 488	MATH	488	[]	[]	['MATH 420', 'MATH 430']	False
+MATH 190	MATH	190	['A-AR']	[]	[]	False
+MATH 482	MATH	482	['A-AR']	[]	[]	False
+MATH 486	MATH	486	[]	['MATH 420', 'MATH 430']	[]	False
+MATH 288	MATH	288	['A-AR']	['MATH 190']	[]	False
+MATH 300	MATH	300	['A-AR', 'A-QR']	['MATH 180']	[]	False
+MATH 150	MATH	150	['ES']	[]	[]	False
+MATH 180	MATH	180	['A-AR', 'A-QR']	[]	[]	False
+MATH 435	MATH	435	['A-AR']	['MATH 430']	[]	False
+MATH 350	MATH	350	['A-AR', 'A-QR']	['MATH 280']	[]	False
+MATH 130	MATH	130	['A-AR']	[]	[]	False
+MATH 120	MATH	120	['A-QR']	[]	[]	False
+MATH 280	MATH	280	['A-AR', 'A-QR']	['MATH 180']	[]	False
+MATH 360	MATH	360	['A-AR', 'A-QR', 'RCH']	['MATH 320', 'MATH 350']	[]	False

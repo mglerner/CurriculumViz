@@ -1,164 +1,167 @@
 label	dept	num	satisfies	prereqs	coreqs	ay
-SENIOR STANDING	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
-PHYS 425	PHYS	425	['SI']	['PHYS 235', 'MATH 320', 'MATH 350']	[]	False
-GEOL 314	GEOL	314	['RCH', 'SI']	['GEOL 201', 'GEOL 211']	[]	False
-GEOL 316	GEOL	316	['RCH', 'SI', 'WI']	['GEOL 201', 'GEOL 211', 'CHEM 111']	[]	False
-GEOL 486	GEOL	486	[]	[]	[]	False
+PHYS 375	PHYS	375	[]	['PHYS 345', 'MATH 280']	[]	False
 BIOL 488	BIOL	488	[]	[]	[]	False
-MATH 482	MATH	482	['A-AR']	[]	[]	False
-PSYC 353	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
+GEOL 110	GEOL	110	['SI']	[]	[]	False
 MATH 420	MATH	420	['A-AR']	['MATH 190', 'MATH 288', 'MATH 310']	[]	False
-BIOL 348	BIOL	348	[]	['BIOL 111']	[]	False
-GEOL 481	GEOL	481	[]	[]	[]	False
-PHYS 345	PHYS	345	['SI']	['MATH 280', 'PHYS 235']	[]	False
-CS 483	CS	483	[]	[]	[]	False
-CS 440	CS	440	[]	['CS 256']	[]	False
-GEOL 485	GEOL	485	[]	"['SENIOR STANDING', ""FACULTY ADVISER'S PRIOR APPROVAL OF PROJECT PROPOSAL""]"	[]	False
-CHEM 321	CHEM	321	['A-QR', 'RCH', 'SI']	['CHEM 221']	[]	False
-CS 350	CS	350	[]	['PHYS 230', 'PHYS 235']	[]	False
-GEOL 482	GEOL	482	[]	[]	[]	False
-MATH 195	MATH	195	[]	[]	[]	False
-BIOL 471	BIOL	471	[]	['BIOL 111', 'BIOL 226']	[]	False
-PHYS 355	PHYS	355	['RCH']	['PHYS 345']	[]	False
-BIOL 343	BIOL	343	[]	['BIOL 112', 'BIOL 341', 'CHEM 221']	[]	False
-MATH 300	MATH	300	['A-AR', 'A-QR']	['MATH 180']	[]	False
-CS 488	CS	488	[]	[]	[]	False
-MATH 130	MATH	130	['A-AR']	[]	[]	False
-BIOL 242	BIOL	242	[]	['BIOL 341']	[]	False
+PHYS 445	PHYS	445	[]	['PHYS 345', 'MATH 320', 'MATH 350', 'MATH 360']	[]	False
+PSYC 342	PSYC	342	BOGUS	BOGUS	BOGUS	BOGUS
+BIOL 472	BIOL	472	[]	['BIOL 471']	[]	False
+BIOL 342	BIOL	342	[]	[]	[]	False
 BIOL 483	BIOL	483	[]	[]	[]	False
-MATH 288	MATH	288	['A-AR']	['MATH 190']	[]	False
-BIOL 455	BIOL	455	['RCH']	['BIOL 111', 'BIOL 112', 'BIOL 226']	[]	False
-PHYS 481	PHYS	481	[]	[]	[]	False
-MATH 430	MATH	430	['A-AR']	['MATH 280', 'MATH 288']	[]	False
-BIOL 465	BIOL	465	[]	['BIOL 341']	[]	False
-BIOL 486	BIOL	486	['IE']	[]	[]	False
-BIOL 286	BIOL	286	[]	[]	[]	False
-GEOL 430	GEOL	430	[]	['GEOL 316']	[]	False
-FACULTY ADVISER'S PRIOR APPROVAL OF PROJECT PROPOSAL	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
-MATH 280	MATH	280	['A-AR', 'A-QR']	['MATH 180']	[]	False
-BIOL 240	BIOL	240	[]	[]	[]	False
-BIOL 360	BIOL	360	[]	['BIOL 111', 'BIOL 112', 'BIOL 226']	[]	False
-CS 484	CS	484	[]	[]	[]	False
-MATH 310	MATH	310	['A-AR']	['MATH 280']	[]	False
-PHYS 150	PHYS	150	['ES']	[]	[]	False
-CS 420	CS	420	[]	['CS 320']	[]	False
-CHEM 421	CHEM	421	[]	['CHEM 321']	[]	False
-BIOL 353	BIOL	353	[]	[]	[]	False
-CS 485	CS	485	[]	[]	[]	False
-MATH 425	MATH	425	['A-AR']	['MATH 420']	[]	False
-MATH 180	MATH	180	['A-AR', 'A-QR']	[]	[]	False
-BIOL 485	BIOL	485	[]	[]	[]	False
-PHYS 230	PHYS	230	['A-AR', 'A-QR', 'SI']	['PHYS 120']	[]	False
-CHEM 441	CHEM	441	['RCH']	['CHEM 341', 'MATH 180', 'PHYS 225']	[]	False
-GEOL 431	GEOL	431	[]	['GEOL 316']	[]	False
-GEOL 410	GEOL	410	[]	['GEOL 315']	[]	False
-PHYS 482	PHYS	482	[]	[]	[]	False
-PHYS 488	PHYS	488	[]	[]	[]	False
-GEOL 201	GEOL	201	['A-QR', 'D-I', 'SI']	[]	[]	False
-CS 345	CS	345	[]	['CS 310']	[]	False
-PHYS 483	PHYS	483	[]	[]	[]	False
-BIOL 111	BIOL	111	['A-QR', 'SI']	[]	[]	False
-BIOL 464	BIOL	464	[]	['BIOL 341']	[]	False
-CS 410	CS	410	[]	['CS 320']	[]	False
-CHEM 331	CHEM	331	['A-QR', 'RCH', 'SI']	['CHEM 111']	[]	False
-CHEM 482	CHEM	482	[]	[]	[]	False
-BIOL 462	BIOL	462	[]	['BIOL 341']	[]	False
-GEOL 400	GEOL	400	[]	['GEOL 201', 'GEOL 211']	[]	False
 CS 486	CS	486	[]	[]	[]	False
-BIOL 341	BIOL	341	[]	['BIOL 112', 'CHEM 221']	[]	False
-CS 430	CS	430	[]	['CS 256']	[]	False
-CHEM 486	CHEM	486	['IE']	[]	[]	False
-CS 130	CS	130	['A-AR']	[]	[]	False
-BIOL 226	BIOL	226	['SI']	[]	[]	False
-GEOL 285	GEOL	285	[]	['GEOL 201', 'GEOL 211']	[]	False
-BIOL 484	BIOL	484	[]	[]	[]	False
-MATH 435	MATH	435	['A-AR']	['MATH 430']	[]	False
-GEOL 113	GEOL	113	['SI']	[]	[]	False
-BIOL 362	BIOL	362	[]	['BIOL 111', 'BIOL 226']	[]	False
-PHYS 115	PHYS	115	['A-QR', 'SI']	[]	[]	False
-CHEM 484	CHEM	484	['IE']	[]	[]	False
+PHYS 486	PHYS	486	[]	[]	[]	False
+CHEM 481	CHEM	481	[]	[]	[]	False
+CHEM 221	CHEM	221	['A-QR', 'SI']	['CHEM 111']	[]	False
+PHYS 481	PHYS	481	[]	[]	[]	False
+GEOL 485	GEOL	485	[]	"['SENIOR STANDING', ""FACULTY ADVISER'S PRIOR APPROVAL OF PROJECT PROPOSAL""]"	[]	False
+GEOL 483	GEOL	483	[]	[]	[]	False
+CHEM 361	CHEM	361	['WI']	['CHEM 321', 'CHEM 331']	[]	False
+BIOL 474	BIOL	474	[]	['BIOL 348']	[]	False
+CHEM 150	CHEM	150	['ES']	[]	[]	False
+GEOL 316	GEOL	316	['RCH', 'SI', 'WI']	['GEOL 201', 'GEOL 211', 'CHEM 111']	[]	False
 GEOL 315	GEOL	315	['RCH', 'SI']	['GEOL 201', 'GEOL 211']	[]	False
 CS 360	CS	360	[]	['CS 310']	[]	False
-PHYS 120	PHYS	120	['A-AR', 'A-QR', 'SI']	[]	[]	False
-CHEM 481	CHEM	481	[]	[]	[]	False
-CHEM 488	CHEM	488	[]	[]	[]	False
-BIOL 345	BIOL	345	[]	['BIOL 341']	[]	False
-MATH 320	MATH	320	['A-AR', 'A-QR']	['MATH 280']	[]	False
-CHEM 483	CHEM	483	[]	[]	[]	False
-CHEM 221	CHEM	221	['A-QR', 'SI']	['CHEM 111']	[]	False
-MATH 190	MATH	190	['A-AR']	[]	[]	False
-GEOL 483	GEOL	483	[]	[]	[]	False
-CS 281	CS	281	[]	[]	[]	False
-BACKGROUND IN CALCULUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
-CS 320	CS	320	[]	['CS 310']	[]	False
-MATH 360	MATH	360	['A-AR', 'A-QR', 'RCH']	['MATH 320', 'MATH 350']	[]	False
-BIOL 482	BIOL	482	[]	[]	[]	False
-CHEM 341	CHEM	341	[]	['CHEM 331', 'MATH 180', 'PHYS 220', 'PHYS 225']	[]	False
-BIOL 461	BIOL	461	[]	['BIOL 341']	[]	False
-PHYS 435	PHYS	435	['SI']	['PHYS 235', 'MATH 320', 'MATH 350']	[]	False
-GEOL 110	GEOL	110	['SI']	[]	[]	False
+CHEM 441	CHEM	441	['RCH']	['CHEM 341', 'MATH 180', 'PHYS 225']	[]	False
 BIOL 466	BIOL	466	[]	['BIOL 341', 'CHEM 221']	[]	False
-MATH 350	MATH	350	['A-AR', 'A-QR']	['MATH 280']	[]	False
+PHYS 482	PHYS	482	[]	[]	[]	False
 CHEM 431	CHEM	431	['RCH']	['CHEM 331']	[]	False
-BIOL 451	BIOL	451	[]	['BIOL 111', 'BIOL 112', 'BIOL 226']	[]	False
-BIOL 473	BIOL	473	[]	['BIOL 111', 'BIOL 226']	[]	False
-GEOL 421	GEOL	421	[]	['GEOL 314']	[]	False
-PHYS 484	PHYS	484	[]	[]	[]	False
-GEOL 112	GEOL	112	['SI']	[]	[]	False
-GEOL 411	GEOL	411	[]	['GEOL 315']	[]	False
-CHEM 361	CHEM	361	['WI']	['CHEM 321', 'CHEM 331']	[]	False
-CS 380	CS	380	[]	['CS 310']	[]	False
-CHEM 485	CHEM	485	[]	[]	[]	False
-GEOL 480	GEOL	480	[]	['GEOL 314', 'GEOL 315', 'GEOL 316']	[]	False
-CHEM 111	CHEM	111	['A-QR', 'SI']	[]	[]	False
-BIOL 410	BIOL	410	[]	['BIOL 111', 'BIOL JUNIOR', 'SENIOR STANDING']	[]	False
-MATH 150	MATH	150	['ES']	[]	[]	False
-BIOL 352	BIOL	352	[]	['BIOL 111', 'BIOL 226']	[]	False
-BIOL 472	BIOL	472	[]	['BIOL 471']	[]	False
-BIOL 350	BIOL	350	[]	['BIOL 111', 'BIOL 226']	[]	False
-PHYS 235	PHYS	235	['A-AR', 'A-QR', 'SI']	['PHYS 125']	['MATH 280']	False
+MATH 430	MATH	430	['A-AR']	['MATH 280', 'MATH 288']	[]	False
+CS 383	CS	383	BOGUS	BOGUS	BOGUS	BOGUS
+PHYS 355	PHYS	355	['RCH']	['PHYS 345']	[]	False
+MATH 190	MATH	190	['A-AR']	[]	[]	False
+GEOL 482	GEOL	482	[]	[]	[]	False
+PHYS 435	PHYS	435	['SI']	['PHYS 235', 'MATH 320', 'MATH 350']	[]	False
 GEOL 211	GEOL	211	['A-QR', 'SI']	[]	[]	False
-CS 330	CS	330	[]	['CS 256']	[]	False
-CS 340	CS	340	[]	['CS 310']	[]	False
-PHYS 375	PHYS	375	[]	['PHYS 345', 'MATH 280']	[]	False
-CS 310	CS	310	[]	['MATH 180', 'MATH 190', 'CS 256']	[]	False
-BIOL 474	BIOL	474	[]	['BIOL 348']	[]	False
-CHEM 480	CHEM	480	[]	[]	[]	False
 GEOL 150	GEOL	150	['ES']	[]	[]	False
-CS 482	CS	482	[]	[]	[]	False
-BIOL 467	BIOL	467	[]	['BIOL 341', 'BIOL 345', 'PSYC 353']	[]	False
-PHYS 360	PHYS	360	['A-AR', 'A-QR', 'RCH']	['MATH 320', 'MATH 350']	[]	False
-GEOL 488	GEOL	488	[]	[]	[]	False
-PHYS 350	PHYS	350	[]	['PHYS 230', 'PHYS 235']	[]	False
-CHEM 105	CHEM	105	['A-QR', 'SI']	[]	[]	False
-CS 481	CS	481	[]	[]	[]	False
-PHYS 480	PHYS	480	[]	['PHYS 375', 'PHYS 445']	[]	False
-CS 128	CS	128	['A-AR', 'A-QR']	[]	[]	False
-BIOL JUNIOR	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
-MATH 486	MATH	486	[]	['MATH 420', 'MATH 430']	[]	False
-PHYS 225	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
-MATH 120	MATH	120	['A-QR']	[]	[]	False
-BIOL 229	BIOL	229	[]	[]	[]	False
-MATH 301	MATH	301	['A-AR']	[]	[]	False
-CS 195	CS	195	[]	[]	[]	False
-GEOL 484	GEOL	484	[]	[]	[]	False
-MATH 488	MATH	488	[]	[]	['MATH 420', 'MATH 430']	False
-BIOL 460	BIOL	460	[]	[]	[]	False
-BIOL 347	BIOL	347	[]	['BIOL 341']	[]	False
-PHYS 125	PHYS	125	['A-AR', 'A-QR', 'SI']	[]	['MATH 180', 'BACKGROUND IN CALCULUS']	False
-GEOL 401	GEOL	401	[]	['GEOL 314']	[]	False
-BIOL 480	BIOL	480	[]	[]	[]	False
+MATH 320	MATH	320	['A-AR', 'A-QR']	['MATH 280']	[]	False
+PHYS 120	PHYS	120	['A-AR', 'A-QR', 'SI']	[]	[]	False
 CHEM 371	CHEM	371	['RCH']	['CHEM 221', 'CHEM 331']	[]	False
-CS 290	CS	290	[]	[]	[]	False
-BIOL 150	BIOL	150	['ES']	[]	[]	False
-PHYS 485	PHYS	485	[]	[]	[]	False
-CHEM 351	CHEM	351	[]	['CHEM 321', 'CHEM 331']	[]	False
-PHYS 445	PHYS	445	[]	['PHYS 345', 'MATH 320', 'MATH 350', 'MATH 360']	[]	False
-GEOL 420	GEOL	420	[]	['GEOL 314']	[]	False
-CS 256	CS	256	[]	['CS 128']	[]	False
-PHYS 220	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
+GEOL 486	GEOL	486	[]	[]	[]	False
+BIOL 347	BIOL	347	[]	['BIOL 341']	[]	False
+CS 484	CS	484	[]	[]	[]	False
+CS 281	CS	281	[]	[]	[]	False
+CS 195	CS	195	[]	[]	[]	False
+BIOL 240	BIOL	240	[]	[]	[]	False
+BIOL JUNIOR	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
+BIOL 451	BIOL	451	[]	['BIOL 111', 'BIOL 112', 'BIOL 226']	[]	False
+CS 320	CS	320	[]	['CS 310']	[]	False
+CHEM 421	CHEM	421	[]	['CHEM 321']	[]	False
+PHYS 484	PHYS	484	[]	[]	[]	False
+CS 380	CS	380	[]	['CS 310']	[]	False
+PHYS 480	PHYS	480	[]	['PHYS 375', 'PHYS 445']	[]	False
+CS 485	CS	485	[]	[]	[]	False
+MATH 425	MATH	425	['A-AR']	['MATH 420']	[]	False
+GEOL 314	GEOL	314	['RCH', 'SI']	['GEOL 201', 'GEOL 211']	[]	False
+PSYC 353	PSYC	353	BOGUS	BOGUS	BOGUS	BOGUS
+MATH 482	MATH	482	['A-AR']	[]	[]	False
+BIOL 353	BIOL	353	[]	[]	[]	False
+GEOL 201	GEOL	201	['A-QR', 'D-I', 'SI']	[]	[]	False
+MATH 350	MATH	350	['A-AR', 'A-QR']	['MATH 280']	[]	False
+GEOL 210	GEOL	210	BOGUS	BOGUS	BOGUS	BOGUS
+BIOL 460	BIOL	460	[]	[]	[]	False
+CS 330	CS	330	[]	['CS 256']	[]	False
+CHEM 480	CHEM	480	[]	[]	[]	False
+PHYS 115	PHYS	115	['A-QR', 'SI']	[]	[]	False
+PHYS 360	PHYS	360	['A-AR', 'A-QR', 'RCH']	['MATH 320', 'MATH 350']	[]	False
+BIOL 352	BIOL	352	[]	['BIOL 111', 'BIOL 226']	[]	False
+MATH 195	MATH	195	[]	[]	[]	False
+CHEM 482	CHEM	482	[]	[]	[]	False
+CS 430	CS	430	[]	['CS 256']	[]	False
+CS 410	CS	410	[]	['CS 320']	[]	False
+PHYS 350	PHYS	350	[]	['PHYS 230', 'PHYS 235']	[]	False
+GEOL 400	GEOL	400	[]	['GEOL 201', 'GEOL 211']	[]	False
 CS 370	CS	370	[]	['CS 256']	[]	False
-CHEM 150	CHEM	150	['ES']	[]	[]	False
-PHYS 486	PHYS	486	[]	[]	[]	False
 BIOL 112	BIOL	112	['SI']	[]	[]	False
-BIOL 342	BIOL	342	[]	[]	[]	False
+BIOL 286	BIOL	286	[]	[]	[]	False
+GEOL 401	GEOL	401	[]	['GEOL 314']	[]	False
+PHYS 235	PHYS	235	['A-AR', 'A-QR', 'SI']	['PHYS 125']	['MATH 280']	False
+MATH 288	MATH	288	['A-AR']	['MATH 190']	[]	False
+PHYS 483	PHYS	483	[]	[]	[]	False
+BIOL 410	BIOL	410	[]	['BIOL 111', 'BIOL JUNIOR', 'SENIOR STANDING']	[]	False
+BIOL 150	BIOL	150	['ES']	[]	[]	False
+CS 128	CS	128	['A-AR', 'A-QR']	[]	[]	False
+GEOL 480	GEOL	480	[]	['GEOL 314', 'GEOL 315', 'GEOL 316']	[]	False
+CS 340	CS	340	[]	['CS 310']	[]	False
+GEOL 420	GEOL	420	[]	['GEOL 314']	[]	False
+PHYS 345	PHYS	345	['SI']	['MATH 280', 'PHYS 235']	[]	False
+SENIOR STANDING	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
+CS 420	CS	420	[]	['CS 320']	[]	False
+CHEM 341	CHEM	341	[]	['CHEM 331', 'MATH 180', 'PHYS 220', 'PHYS 225']	[]	False
+BIOL 485	BIOL	485	[]	[]	[]	False
+MATH 488	MATH	488	[]	[]	['MATH 420', 'MATH 430']	False
+BIOL 467	BIOL	467	[]	['BIOL 341', 'BIOL 345', 'PSYC 353']	[]	False
+CHEM 483	CHEM	483	[]	[]	[]	False
+BIOL 484	BIOL	484	[]	[]	[]	False
+GEOL 410	GEOL	410	[]	['GEOL 315']	[]	False
+CS 345	CS	345	[]	['CS 310']	[]	False
+CHEM 351	CHEM	351	[]	['CHEM 321', 'CHEM 331']	[]	False
+CHEM 105	CHEM	105	['A-QR', 'SI']	[]	[]	False
+GEOL 411	GEOL	411	[]	['GEOL 315']	[]	False
+BIOL 229	BIOL	229	[]	[]	[]	False
+MATH 120	MATH	120	['A-QR']	[]	[]	False
+MATH 310	MATH	310	['A-AR']	['MATH 280']	[]	False
+BIOL 464	BIOL	464	[]	['BIOL 341']	[]	False
+CHEM 486	CHEM	486	['IE']	[]	[]	False
+GEOL 481	GEOL	481	[]	[]	[]	False
+BIOL 341	BIOL	341	[]	['BIOL 112', 'CHEM 221']	[]	False
+CS 482	CS	482	[]	[]	[]	False
+BIOL 471	BIOL	471	[]	['BIOL 111', 'BIOL 226']	[]	False
+GEOL 421	GEOL	421	[]	['GEOL 314']	[]	False
+CS 481	CS	481	[]	[]	[]	False
+PHYS 150	PHYS	150	['ES']	[]	[]	False
+BIOL 465	BIOL	465	[]	['BIOL 341']	[]	False
+MATH 486	MATH	486	[]	['MATH 420', 'MATH 430']	[]	False
+PHYS 225	PHYS	225	BOGUS	BOGUS	BOGUS	BOGUS
+BIOL 226	BIOL	226	['SI']	[]	[]	False
+MATH 300	MATH	300	['A-AR', 'A-QR']	['MATH 180']	[]	False
+BIOL 362	BIOL	362	[]	['BIOL 111', 'BIOL 226']	[]	False
+BIOL 345	BIOL	345	[]	['BIOL 341']	[]	False
+MATH 130	MATH	130	['A-AR']	[]	[]	False
+BACKGROUND IN CALCULUS	MATH	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
+MATH 150	MATH	150	['ES']	[]	[]	False
+CHEM 331	CHEM	331	['A-QR', 'RCH', 'SI']	['CHEM 111']	[]	False
+GEOL 430	GEOL	430	[]	['GEOL 316']	[]	False
+CHEM 485	CHEM	485	[]	[]	[]	False
+MATH 180	MATH	180	['A-AR', 'A-QR']	[]	[]	False
+GEOL 112	GEOL	112	['SI']	[]	[]	False
+PHYS 425	PHYS	425	['SI']	['PHYS 235', 'MATH 320', 'MATH 350']	[]	False
+CS 130	CS	130	['A-AR']	[]	[]	False
+GEOL 431	GEOL	431	[]	['GEOL 316']	[]	False
+CS 310	CS	310	[]	['MATH 180', 'MATH 190', 'CS 256']	[]	False
+BIOL 348	BIOL	348	[]	['BIOL 111']	[]	False
+BIOL 242	BIOL	242	[]	['BIOL 341']	[]	False
+PHYS 485	PHYS	485	[]	[]	[]	False
+GEOL 285	GEOL	285	[]	['GEOL 201', 'GEOL 211']	[]	False
+BIOL 462	BIOL	462	[]	['BIOL 341']	[]	False
+BIOL 482	BIOL	482	[]	[]	[]	False
+CS 350	CS	350	[]	['PHYS 230', 'PHYS 235']	[]	False
+PHYS 488	PHYS	488	[]	[]	[]	False
+GEOL 484	GEOL	484	[]	[]	[]	False
+CHEM 321	CHEM	321	['A-QR', 'RCH', 'SI']	['CHEM 221']	[]	False
+BIOL 350	BIOL	350	[]	['BIOL 111', 'BIOL 226']	[]	False
+MATH 280	MATH	280	['A-AR', 'A-QR']	['MATH 180']	[]	False
+BIOL 343	BIOL	343	[]	['BIOL 112', 'BIOL 341', 'CHEM 221']	[]	False
+CS 290	CS	290	[]	[]	[]	False
+MATH 360	MATH	360	['A-AR', 'A-QR', 'RCH']	['MATH 320', 'MATH 350']	[]	False
+BIOL 473	BIOL	473	[]	['BIOL 111', 'BIOL 226']	[]	False
+BIOL 111	BIOL	111	['A-QR', 'SI']	[]	[]	False
+CHEM 488	CHEM	488	[]	[]	[]	False
+GEOL 113	GEOL	113	['SI']	[]	[]	False
+CS 440	CS	440	[]	['CS 256']	[]	False
+GEOL 488	GEOL	488	[]	[]	[]	False
+BIOL 360	BIOL	360	[]	['BIOL 111', 'BIOL 112', 'BIOL 226']	[]	False
+PHYS 220	PHYS	220	BOGUS	BOGUS	BOGUS	BOGUS
+BIOL 455	BIOL	455	['RCH']	['BIOL 111', 'BIOL 112', 'BIOL 226']	[]	False
+MATH 301	MATH	301	['A-AR']	[]	[]	False
+CS 488	CS	488	[]	[]	[]	False
+BIOL 486	BIOL	486	['IE']	[]	[]	False
+PHYS 230	PHYS	230	['A-AR', 'A-QR', 'SI']	['PHYS 120']	[]	False
+CS 483	CS	483	[]	[]	[]	False
+PHYS 125	PHYS	125	['A-AR', 'A-QR', 'SI']	[]	['MATH 180', 'BACKGROUND IN CALCULUS']	False
+BIOL 480	BIOL	480	[]	[]	[]	False
+FACULTY ADVISER'S PRIOR APPROVAL OF PROJECT PROPOSAL	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS	BOGUS
+CHEM 111	CHEM	111	['A-QR', 'SI']	[]	[]	False
+CHEM 484	CHEM	484	['IE']	[]	[]	False
+CS 256	CS	256	[]	['CS 128']	[]	False
+MATH 435	MATH	435	['A-AR']	['MATH 430']	[]	False
+BIOL 461	BIOL	461	[]	['BIOL 341']	[]	False
