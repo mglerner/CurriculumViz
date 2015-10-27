@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from __future__ import division
+from __future__ import division, print_function
 import argparse,sys,os
 
 from collections import Counter
@@ -102,12 +102,12 @@ def generatepdf(xl_filename,removeintermediate=False,verbose=False):
     html_filename = os.path.splitext(xl_filename)[0] + '.html'
     wc_filename = os.path.splitext(xl_filename)[0] + '-wordcloud.png'
 
-    print "I will write out the following files: {p} {h} {w}".format(p=pdf_filename,
+    print("I will write out the following files: {p} {h} {w}".format(p=pdf_filename,
                                                                      h=html_filename,
-                                                                     w=wc_filename)
+                                                                     w=wc_filename))
     if removeintermediate:
-        print "But I will delete {h} and {w}.".format(h=html_filename,
-                                                      w=wc_filename)
+        print("But I will delete {h} and {w}.".format(h=html_filename,
+                                                      w=wc_filename))
 
     answers = pd.io.excel.read_excel(xl_filename,sheetname='RawData')
     questionmap = pd.io.excel.read_excel(xl_filename,sheetname='QuestionMapper')
@@ -137,7 +137,7 @@ def generatepdf(xl_filename,removeintermediate=False,verbose=False):
         qm[qn] = qt
 
     if verbose:
-        print qm
+        print(qm)
 
     # Now let's grab the data that should be common to all rows
     path = answers.Path[0]
@@ -155,11 +155,11 @@ def generatepdf(xl_filename,removeintermediate=False,verbose=False):
         for colname in answers.columns:
             col_name = colname.replace(' ','_')
             if col_name in qm:
-                #print "Looking up",col_name
+                #print("Looking up",col_name)
                 a[idx][qm[col_name]] = student[colname]
             else:
                 if colname not in knownskips:
-                    print "Could not find",colname    
+                    print("Could not find",colname)
 
 
     # Now we're ready to stamp out the text, believe it or not. The
@@ -168,7 +168,7 @@ def generatepdf(xl_filename,removeintermediate=False,verbose=False):
     # `np`) to test for nan, and turn it into "No answer given."
 
     if verbose:
-        print a[0][questions[0]]
+        print(a[0][questions[0]])
 
     html = '''
 <html>
