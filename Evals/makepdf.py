@@ -13,6 +13,7 @@ from weasyprint import HTML as weasyHTML
 parser = argparse.ArgumentParser()
 parser.add_argument('xlfilename',help='Name of the excel file to use')
 parser.add_argument('-V','--verbose',help='Be extra verbose',action='store_true',default=False)
+parser.add_argument('-W','--include-word-count',help='Include a table with the word count',action='store_true',default=False)
 
 args = parser.parse_args()
 
@@ -97,7 +98,7 @@ table, th, td
 }
 """
 
-def generatepdf(xl_filename,removeintermediate=False,verbose=False):
+def generatepdf(xl_filename,removeintermediate=False,verbose=False,include_word_count=False):
     pdf_filename = os.path.splitext(xl_filename)[0] + '.pdf'
     html_filename = os.path.splitext(xl_filename)[0] + '.html'
     wc_filename = os.path.splitext(xl_filename)[0] + '-wordcloud.png'
@@ -220,14 +221,17 @@ def generatepdf(xl_filename,removeintermediate=False,verbose=False):
 
     c = Counter([i for i in answertext.lower().split() if i not in STOPWORDS])
 
-    html += '''<div class="content-analysis"><img src="{wc}" style="width:720px;height:560px;"/>
-    <table>
-      <caption>Most common words</caption>
-      <tr><th>Word</th><th>Count</th></tr>
-    '''.format(wc=os.path.split(wc_filename)[-1])
-    for (w,n) in c.most_common(20):
-        html += '<tr><td>{w}</td><td>{n}</td></tr>\n'.format(w=w,n=n)
-    html += '''</table>
+    html += '''<div class="content-analysis"><img src="{wc}" style="width:720px;height:560px;"/>'''.format(wc=os.path.split(wc_filename)[-1])
+
+    if include_word_count:
+        html += '''<table>
+          <caption>Most common words</caption>
+          <tr><th>Word</th><th>Count</th></tr>
+        '''
+        for (w,n) in c.most_common(20):
+            html += '<tr><td>{w}</td><td>{n}</td></tr>\n'.format(w=w,n=n)
+        html += '''</table>'''
+    html += '''
     </div>
     </body>
     </html>
@@ -238,4 +242,4 @@ def generatepdf(xl_filename,removeintermediate=False,verbose=False):
     weasyHTML(html_filename).write_pdf(pdf_filename)
 
         
-generatepdf(xl_filename=args.xlfilename, verbose=args.verbose)
+generatepdf(xl_filename=args.xlfilename, verbose=args.verbose, include_word_count=args.include_word_count)
